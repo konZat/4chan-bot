@@ -1,0 +1,5 @@
+tests/
+videos/
+node_modules/
+
+*.jpg

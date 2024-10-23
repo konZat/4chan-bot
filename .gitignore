@@ -1,0 +1,12 @@
+node_modules/
+*.js
+*.d.ts
+
+*.jpg
+tests/
+videos/
+
+# Keep solvers
+!src/data/solverWASM.js
+!src/data/tensorflow.js
+!src/data/wasm.js
