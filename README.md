@@ -1,4 +1,9 @@
 # 4chan-bot
+[![npm](https://img.shields.io/npm/v/4chan-bot)](https://www.npmjs.com/package/4chan-bot)
+[![npm download count](https://img.shields.io/npm/dm/4chan-bot)](https://www.npmjs.com/package/4chan-bot)
+[![MIT License](https://img.shields.io/npm/l/4chan-bot.svg)](#license)
+![Stargazers](https://img.shields.io/github/stars/konZat/4chan-bot?style=social)
+![Forks](https://img.shields.io/github/forks/konZat/4chan-bot?style=social)
 
 A 4chan bot for automatically replying to and creating threads using puppeteer.
 
@@ -157,11 +162,11 @@ All config methods are optional.
 
 ## Headful Example
 
-<div align="center">
+<p align="center">
   <video src='https://github.com/user-attachments/assets/5adb8ead-b092-4649-bc2a-c5de59e47fc1' width=600></video>
   <br/>
   <sub>Posting a reply + thread in headful mode</sub>
-</div>
+</p>
 
 ## TODO
 - [ ] Fix cookies, cooldown not bypassed with new antispam update
