@@ -36,8 +36,8 @@ There are several possible ways to handle this:
 - Just wait 15 minutes. 
   - There is no cooldown after the 15 minutes is up. This means that the initial cooldown for threads is only increased by 3x (from 5 min to 15 min), and 15x for replies (1 min to 15 min).
   - If your usecase isn't spam, then this doesn't matter much if you expect to make many posts before being banned (As you only need to wait the 15 minutes once, future threads/replys have the normal 300s / 60s cooldown).
-- Run many bots at once and wait 15 minutes if you just need a small burst of posts (or spaced out afterwards, but note that the CF bypass will eventually expire if you're on a fresh cookie)
-  - Ex. 50 headless at once with a rotating residential proxy
+  - If you need to rapdily post, wait 15 minutes with many bot instances open.
+    - Ex. 50 headless bots at once with a rotating residential proxy
 - Run many browser instances specifically to 'farm' lots of bypassed cookies in advance of when you need to rapidly post.
   - Ex. Reply to a random post on a board such as /b/ (waiting the 15 minutes), then save the cookies and destroy the bot. When you're ready to post on a board with antispam, import the cookies and you should be able to post without the antispam cooldown.
 - Use a temporary email service that supports gmail (or another whitelisted email domain) like [Emailnator](https://www.emailnator.com/), and a service like [2Captcha](https://2captcha.com/) to solve the hcaptcha, to complete the email verification automatically.
@@ -47,7 +47,7 @@ There are several possible ways to handle this:
 
 ~~Currently, neither of the latter options are implemented, and the bot will wait for the extended cooldown without any additional configuration required.~~
 
-Currently, you can either wait the 15 minutes or import/export cookies (So option 1/2/3).
+Currently, you can either wait the 15 minutes or import/export cookies.
 <br><br>
 I would recommend exporting the cookies of your bots after you are done, so you can reuse them in future to avoid the 15 minute cooldown, provided they don't get banned.
 
