@@ -1,9 +1,9 @@
 # 4chan-bot
 [![npm](https://img.shields.io/npm/v/4chan-bot)](https://www.npmjs.com/package/4chan-bot)
 [![npm download count](https://img.shields.io/npm/dm/4chan-bot)](https://www.npmjs.com/package/4chan-bot)
-[![MIT License](https://img.shields.io/npm/l/4chan-bot.svg)](#license)
-![Stargazers](https://img.shields.io/github/stars/konZat/4chan-bot?style=social)
-![Forks](https://img.shields.io/github/forks/konZat/4chan-bot?style=social)
+[![MIT License](https://img.shields.io/npm/l/4chan-bot)](#license)
+![Stargazers](https://img.shields.io/github/stars/konZat/4chan-bot)
+![Forks](https://img.shields.io/github/forks/konZat/4chan-bot)
 
 A 4chan bot for automatically replying to and creating threads using puppeteer.
 
